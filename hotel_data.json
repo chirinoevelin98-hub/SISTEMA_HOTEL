@@ -1,0 +1,43 @@
+{
+  "clientes": [
+    {
+      "nombre": "Ana",
+      "documento": "12345678",
+      "telefono": "5551234"
+    }
+  ],
+  "habitaciones": [
+    {
+      "numero": 101,
+      "tipo": "HabitacionEstandar",
+      "precio_por_noche": 120.0,
+      "capacidad": 2,
+      "disponible": false
+    },
+    {
+      "numero": 201,
+      "tipo": "Suite",
+      "precio_por_noche": 220.0,
+      "capacidad": 3,
+      "disponible": true,
+      "costo_extra": 80.0
+    },
+    {
+      "numero": 301,
+      "tipo": "HabitacionFamiliar",
+      "precio_por_noche": 180.0,
+      "capacidad": 4,
+      "disponible": true,
+      "aumento_familiar": 50.0
+    }
+  ],
+  "reservas": [
+    {
+      "cliente_documento": "12345678",
+      "habitacion_numero": 101,
+      "fecha_entrada": "2026-09-20",
+      "fecha_salida": "2026-09-22",
+      "estado": "pendiente"
+    }
+  ]
+}
